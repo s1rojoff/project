@@ -1,10 +1,17 @@
 <template>
-  <Navbar/>
+  <div>
+    <Navbar/>
+    <VueMain/>
+  </div>
 </template>
 <script>
 import Navbar from "./components/Navbar/Navbar.vue"
+import VueMain from "./components/Main/VueMain.vue"
 export default {
-    components:{Navbar}
+    components:{
+      Navbar,
+      VueMain
+    }
 }
 </script>
 
