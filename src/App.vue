@@ -1,13 +1,10 @@
 <template>
-  <div>
-    <h1 class="text-red-500">saom</h1>
-    <p class="text-green-600 te">niam</p>
-  </div>
+  <Navbar/>
 </template>
-
 <script>
+import Navbar from "./components/Navbar/Navbar.vue"
 export default {
-
+    components:{Navbar}
 }
 </script>
 
