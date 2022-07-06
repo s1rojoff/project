@@ -1,9 +1,9 @@
 <template>
   <div>
-    <div class="grid grid-cols-2 gap-10 mt-10">
+    <div class="grid grid-cols-2 gap-10 mt-10 ml-10">
         <div class=" text-start ml-10 pl-32 pr-12 mt-32">
             <p class="text-xs font-semibold">GET MORE DONE</p>
-            <p class="text-3xl font-bold">
+            <p class="text-4xl font-bold">
                 Add your tasks. <br>
                 Organize your life. <br>    
                 Achieve more every day.
