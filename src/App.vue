@@ -1,9 +1,10 @@
 <template>
   <div>
     <Navbar/>
-    <VueMain/>
+    <router-view></router-view>
     <Footer/>
   </div>
+  
 </template>
 <script>
 import Navbar from "./components/Navbar/Navbar.vue"
