@@ -1,7 +1,7 @@
 <template>
     <ul>
         <li
-        class="list-item p-1 hover:border-b border-b-black  "
+        class="list-item p-1 text-base"
          v-for="item in items" :key="item">
            <a href="#">{{item}}</a> 
         </li>
