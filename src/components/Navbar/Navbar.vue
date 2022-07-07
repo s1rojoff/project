@@ -10,8 +10,9 @@
         </ul>
         <LogBtn/>
         <StartBtn/>
-</nav>
+    </nav>
         <NavText/>
+        <HeaderImgs/>
 </div>
 </template>
 
@@ -19,9 +20,15 @@
 import LogBtn from "./LogBtn.vue"
 import StartBtn from "./StartBtn.vue"
 import NavText from "./NavText.vue"
+import HeaderImgs from "./HeaderImgs.vue"
 export default {
     name: "Navbar",
-    components:{LogBtn, StartBtn, NavText}
+    components:{ 
+        LogBtn, 
+        StartBtn, 
+        NavText, 
+        HeaderImgs 
+    }
 }
 </script>
 
