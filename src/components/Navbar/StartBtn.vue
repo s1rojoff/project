@@ -4,7 +4,15 @@
 
 <script>
 export default {
-    name: "StartBtn"
+    name: "StartBtn",
+    props:{
+        bg : String,
+        textcolor: String,
+        Bradius : String,
+        weight: String,
+        outline: String,
+        hover: String
+    },
 }
 </script>
 
