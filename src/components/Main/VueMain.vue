@@ -2,20 +2,20 @@
   <div>
     <FirstSection/>
     <SecondSection/>
-    <FourSection/>
+    <ThirdSection/>
   </div>
 </template>
 
 <script>
 import FirstSection from './FirstSection.vue';
 import SecondSection from './SecondSection.vue';
-import FourSection from './FourSection.vue';
+import ThirdSection from './ThirdSection.vue';
 export default {
     name: "VueMain",
     components: {
-    FirstSection,
-    SecondSection,
-    FourSection
+      FirstSection,
+      SecondSection,
+      ThirdSection
 }
 }
 </script>
