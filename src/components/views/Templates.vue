@@ -1,14 +1,16 @@
 <template>
   <div>
-    <h1 class="text-orange-500 text-3xl p-10 bg-slate-400 text-center">
-        this is templates page
-    </h1>
+    <TempHeaderText/>
+    <TempFirstSec/>
   </div>
 </template>
 
 <script>
+import TempHeaderText from '../templatesViews/TempHeaderText.vue';
+import TempFirstSec from '../templatesViews/TempFirstSec.vue';
 export default {
-    name: 'Templates'
+    name: "Templates",
+    components: { TempHeaderText, TempFirstSec }
 }
 </script>
 
