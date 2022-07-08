@@ -12,7 +12,7 @@
       <div class="flex items-center justify-center flex-col">
         <div>
           <h1 class="text-4xl font-bold">Achieve peace of mind with Todoist</h1>
-          <StartBtn />
+          <StartBtn>Start for free</StartBtn>
         </div>
       </div>
     </div>
