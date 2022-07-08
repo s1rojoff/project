@@ -9,7 +9,9 @@
                 @click="toSection(`templates`)">
                 Templates
             </li>
-            <li class="px-5 pt-2 cursor-pointer h-10 hover:bg-gray-200 rounded-lg">For teams</li>
+            <li
+                class="px-5 pt-2 cursor-pointer h-10 hover:bg-gray-200 rounded-lg"
+                @click="toSection(`business`)">For teams</li>
             <li class="px-5 pt-2 cursor-pointer flex h-10 hover:bg-gray-200 rounded-lg">
                 Resources
                 <svg xmlns="http://www.w3.org/2000/svg" class="mt-1 icon icon-tabler icon-tabler-chevron-down" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -20,7 +22,7 @@
             <li class="px-5 pt-2 cursor-pointer h-10 hover:bg-gray-200 rounded-lg">Pricing</li>
         </ul>
         <LogBtn/>
-        <StartBtn/>
+        <StartBtn>Start for free</StartBtn>
     </nav>
         
 </div>
