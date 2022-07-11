@@ -1,13 +1,6 @@
 <template>
-  <section class="flex">
-    <div >
-      <img
-        src="./../../assets/img/features-hero-bg-w_1460.webp"
-        class="w-full h-full"
-        alt=""
-      />
-      
-        <div class="w-3/6 absolute top-52 left-96">
+  <section class="bg-accent-dark bg-cover bg-features w-full h-screen flex">
+      <div class="w-3/6 my-12 mx-auto">
           <h1 class="text-7xl font-bold text-center mb-4">
           From overwhelmed to on top of it
         </h1>
@@ -18,9 +11,8 @@
         </p>
     
         
-        <feat-overlay></feat-overlay>
+        <feat-overlay class="ml-32 mt-20 flex justify-end"></feat-overlay>
       </div>
-    </div>
   </section>
 </template>
 
@@ -33,4 +25,9 @@ export default {
 </script>
 
 <style>
+ .bg-features{
+    background-image: url("./../../assets/img/features-hero-bg-w_1460.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
 </style>
