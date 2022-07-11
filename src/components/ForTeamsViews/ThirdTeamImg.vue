@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-52">
+  <div>
     <div class="ml-24">
     <h1 class="text-5xl font-bold">On every device</h1>
     <h1 class="text-5xl font-bold">your team touches</h1>
