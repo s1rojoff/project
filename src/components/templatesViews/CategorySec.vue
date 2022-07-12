@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import { InputField } from '../helpers/InputField.vue'
+import InputField  from '../helpers/InputField.vue'
 export default {
     name : "CategorySec",
     components : {
