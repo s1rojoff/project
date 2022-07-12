@@ -1,7 +1,8 @@
 <template>
   <div>
-    <slot v-if="logSvg" name="logSvg">
+    <slot name="logSvg">
       <svg
+      v-if="logSvg"
         fill="none"
         height="32"
         width="32"
