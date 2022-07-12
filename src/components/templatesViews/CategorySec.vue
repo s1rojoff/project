@@ -6,7 +6,11 @@
                     <div>
                         Search templates
                     </div>
-                    <input-field></input-field>
+                    <input-field>
+                        <template #prepend>
+                             <i class="el-icon-circle"></i>   
+                        </template>
+                    </input-field>
                 </form>
             </aside>
         </div>

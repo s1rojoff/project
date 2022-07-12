@@ -31,7 +31,7 @@
 
 <script>
 export default {
-    name:"InputField",
+    name:"inputField",
   props: {
     label: String,
     value: [String, Number, Boolean],
