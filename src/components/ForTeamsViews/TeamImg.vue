@@ -22,7 +22,7 @@
 
 <script>
 export default {
-name: "TeamImg"
+name: "TeamImg",
 }
 </script>
 
