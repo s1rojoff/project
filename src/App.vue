@@ -15,7 +15,7 @@ export default {
     Navbar,
     VueMain,
     Footer
-}
+},
 }
 </script>
 

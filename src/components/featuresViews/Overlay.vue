@@ -1,9 +1,9 @@
 <template>
     <div    :class="className" class=" w-full justify-end">
         <button class="max-w-xl">
-        <img @click="Clicked=true" src="../../assets/img/video-preview-features.webp" class=" w-full" alt="">
+        <img @click="clicked = !clicked" src="../../assets/img/video-preview-features.webp" class=" w-full" alt="">
     </button>
-        <overlay-video :isClicked="Clicked"></overlay-video>   
+        <overlay-video v-show="clicked"></overlay-video>   
     </div>
 </template>
 
@@ -24,13 +24,11 @@ export default {
     },
     data() {
         return {
-            Clicked : false
+            clicked : this.$store.state.overlay
         }
     },
-    methods : {
-        Debugger(){
-            console.log(Clicked);
-        }
+    mounted(){
+        console.log(this.clicked)
     }
 }
 </script>
