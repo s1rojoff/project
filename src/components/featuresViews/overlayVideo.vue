@@ -1,5 +1,5 @@
 <template>
-<div v-show="isClicked" @click="isClicked=false" 
+<div v-show="isClicked" @click="isClicked= !isClicked" 
       class="w-screen h-screen bg-black z-20 flex my-0 mx-auto opacity-90 items-center justify-center fixed top-0 left-0">
     <div >
       
@@ -21,8 +21,13 @@
 <script>
 export default {
     name:"overlayVideo",
-    props:{
-        isClicked : false
+    data() {
+      return {
+        isClicked : this.$store.state.overlay 
+      }
+    },
+    mounted(){
+      console.log(this.isClicked)
     }
 };
 </script>
